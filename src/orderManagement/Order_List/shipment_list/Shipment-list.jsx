@@ -3,9 +3,9 @@ import { LuPrinter } from "react-icons/lu";
 import { GrDocumentText } from "react-icons/gr";
 const Shipmentslist = () => {
   return (
-    <div className='w-75 h-screen bg-white pt-3 d-flex flex-col'>
+    <div className='w-full h-screen bg-white pt-3 d-flex flex-col'>
         
-      <div className='w-100 h-10 flex flex-row justify-between '> 
+      <div className='w-full h-10 flex  justify-between '> 
 <h1 className='fw-bold ms-3'>Shipment List</h1>
 <div className='sub-div w-80 h-10'>
 <button className='w-28  text-white ms-3 h-10 bg-purple-700 ' style={{borderRadius:"5px"}}>Shipment List</button>

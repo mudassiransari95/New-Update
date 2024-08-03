@@ -77,13 +77,13 @@ Note : Dont Use Any Kind Of Space In The Input Fields</p>
             {/* apppppppppp */}
 {  !app    && 
      <div className='  p-4 widthapp shadow-lg  rounded'>
-                <label htmlFor="">APP_NAME</label><br />
+                <p htmlFor="">APP_NAME</p><br />
                 <input className='w-full border rounded-lg h-12' type="text" /><br />
-                <label className='mt-3' htmlFor="">APP_NAME</label><br />
+                <p className='mt-3' htmlFor="">APP_NAME</p><br />
                 <input className='w-full border rounded-lg h-12' type="text" /><br />
-                <label className='mt-3' htmlFor="">APP_NAME</label><br />
+                <p className='mt-3' htmlFor="">APP_NAME</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" /><br />
-                <label className='mt-3' htmlFor="">APP_NAME</label><br />
+                <p className='mt-3' htmlFor="">APP_NAME</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" />
 
             <div className='w-full my-7'>
@@ -108,11 +108,11 @@ Note : Dont Use Any Kind Of Space In The Input Fields</p>
                     <option value="">fnksdjkhg</option>
                     </select><br />
                     <p>Recommended Memcached or Redis Cache Driver For Height Performance Application And Optimize Call Database Query</p>
-                <label className='mt-3' htmlFor="">QUEUE_CONNECTION</label><br />
+                <p className='mt-3' htmlFor="">QUEUE_CONNECTION</p><br />
                 <input className='w-full border rounded-lg h-12' type="text" /><br />
-                <label className='mt-3' htmlFor="">SESSION_DRIVER</label><br />
+                <p className='mt-3' htmlFor="">SESSION_DRIVER</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" /><br />
-                <label className='mt-3' htmlFor="">SESSION_LIFETIME</label><br />
+                <p className='mt-3' htmlFor="">SESSION_LIFETIME</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" />
 
             <div className='w-full my-7'>
@@ -131,29 +131,29 @@ Note : Dont Use Any Kind Of Space In The Input Fields</p>
 { storage &&
             <div className='  p-4 widthapp shadow-lg  rounded'>
                 <p>Storage Setting</p>
-                <label htmlFor="">Storage Method</label><br />
+                <p htmlFor="">Storage Method</p><br />
                 <input className='w-full border rounded-lg h-12' type="text" /><br />
                 <hr className='w-full mt-4'/>
                 <p>Fill up this credentials if you want to use AWS S3 Storage Bucket</p>
-                <label className='mt-3' htmlFor="">AWS_ACCESS_KEY_ID</label><br />
+                <p className='mt-3' htmlFor="">AWS_ACCESS_KEY_ID</p><br />
                 <input className='w-full border rounded-lg h-12' type="text" /><br />
-                <label className='mt-3' htmlFor="">AWS_SECRET_ACCESS_KEY</label><br />
+                <p className='mt-3' htmlFor="">AWS_SECRET_ACCESS_KEY</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" /><br />
-                <label className='mt-3' htmlFor="">AWS_DEFAULT_REGION</label><br />
+                <p className='mt-3' htmlFor="">AWS_DEFAULT_REGION</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" />
-                <label className='mt-3' htmlFor="">AWS_BUCKET</label><br />
+                <p className='mt-3' htmlFor="">AWS_BUCKET</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" />
                 <hr className='w-full mt-4'/>
                 <p>Fill up this credentials if you want to use AWS S3 Storage Bucket</p>
-                <label className='mt-3' htmlFor="">WAS_ACCESS_KEY_ID</label><br />
+                <p className='mt-3' htmlFor="">WAS_ACCESS_KEY_ID</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" />
-                <label className='mt-3' htmlFor="">WAS_SECRET_ACCESS_KEY</label><br />
+                <p className='mt-3' htmlFor="">WAS_SECRET_ACCESS_KEY</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" />
-                <label className='mt-3' htmlFor="">WAS_DEFAULT_REGION</label><br />
+                <p className='mt-3' htmlFor="">WAS_DEFAULT_REGION</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" />
-                <label className='mt-3' htmlFor="">WAS_BUCKET</label><br />
+                <p className='mt-3' htmlFor="">WAS_BUCKET</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" />
-                <label className='mt-3' htmlFor="">WAS_ENDPOINT</label><br />
+                <p className='mt-3' htmlFor="">WAS_ENDPOINT</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" />
 
             <div className='w-full my-7'>
@@ -172,13 +172,13 @@ Note : Dont Use Any Kind Of Space In The Input Fields</p>
 {mail &&
 
             <div className='  p-4 widthapp shadow-lg  rounded'>
-                <label htmlFor="">QUEUE_MAIL</label><br />
+                <p htmlFor="">QUEUE_MAIL</p><br />
                 <select className='w-full border rounded-lg h-12' name="" id="">
                     <option value="">true</option>
                     <option value="">false</option>
                 </select>
                 <br />
-                <label className='mt-3' htmlFor="">MAIL_DRIVER_TYPE</label><br />
+                <p className='mt-3' htmlFor="">MAIL_DRIVER_TYPE</p><br />
                 <select className='w-full border rounded-lg h-12' name="" id="">
                     <option value="">MAIL_MAILER</option>
                     <option value="">MAIL_DRIVER</option>
@@ -192,19 +192,19 @@ Note : Dont Use Any Kind Of Space In The Input Fields</p>
                     <option value="">smtp</option>
                 </select>
              
-                <label className='mt-3' htmlFor="">MAIL_HOST</label><br />
+                <p className='mt-3' htmlFor="">MAIL_HOST</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" />
-                <label className='mt-3' htmlFor="">MAIL_PORT</label><br />
+                <p className='mt-3' htmlFor="">MAIL_PORT</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" />
-                <label className='mt-3' htmlFor="">MAIL_USERNAME</label><br />
+                <p className='mt-3' htmlFor="">MAIL_USERNAME</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" />
-                <label className='mt-3' htmlFor="">MAIL_PASSWORD</label><br />
+                <p className='mt-3' htmlFor="">MAIL_PASSWORD</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" />
-                <label className='mt-3' htmlFor="">MAIL_ENCRYPTION</label><br />
+                <p className='mt-3' htmlFor="">MAIL_ENCRYPTION</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" />
-                <label className='mt-3' htmlFor="">MAIL_FROM_ADDRESS</label><br />
+                <p className='mt-3' htmlFor="">MAIL_FROM_ADDRESS</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" />
-                <label className='mt-3' htmlFor="">MAIL_FROM_NAME</label><br />
+                <p className='mt-3' htmlFor="">MAIL_FROM_NAME</p><br />
                 <input className='w-full rounded-lg border h-12' type="text" />
                 <p className='mt-1'>
                 Note : If you are using MAIL QUEUE after Changing The Mail Settings You Need To Restart Your Supervisor From Your Server
@@ -230,9 +230,9 @@ QUEUE COMMAND : php artisan queue:work
 {Others &&
 
             <div className='  p-4 widthapp shadow-lg rounded '>
-                <label htmlFor="">CACHE_LIFETIME</label><br />
+                <p htmlFor="">CACHE_LIFETIME</p><br />
                 <input className='w-full border rounded-lg h-12' type="text" /><br />
-                <label className='mt-3' htmlFor="">TIMEZONE</label><br />
+                <p className='mt-3' htmlFor="">TIMEZONE</p><br />
                 <select className='w-full border rounded-lg h-12' name="" id="">
                     <option value="">Africa/Abidjan</option>
                     <option value="">Africa/Accra</option>

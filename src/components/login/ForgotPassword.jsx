@@ -24,7 +24,7 @@ const Forgotpassword = () => {
 
         </div>
         <button className='text-white  w-auto bg-purple-600' style={{borderRadius:"2px"}} >Continue</button>
-        <div className='w-50 d-flex ms-36 gap-1'>
+        <div className='w-50 d-flex ml-24 gap-1'>
         <FaRegUser className='mt-1' />
 <Link   className='backtologin' to="/">Back to login</Link>
         </div>

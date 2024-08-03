@@ -115,8 +115,8 @@ const Sidebar = (props) => {
 
   
   return (
-    <Sider trigger={null} collapsible collapsed={collapsed}>
-      <div style={{padding:"5px"}}>
+    <Sider trigger={null} collapsible collapsed={collapsed} className='overflow-y-scroll overflow-hidden' style={{height:"100vh"}}>
+      <div style={{padding:"5px"}} className=''>
  <img src="https://erpsoftware.acnoo.com/assets/images/logo/backend_logo.svg" alt="Logo"/>
 
       </div>

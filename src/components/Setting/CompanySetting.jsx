@@ -20,19 +20,19 @@ const CompanySetting = () => {
             <p>Company Settings</p>
             <hr className='w-full mt-3'/>
 
-            <label className='mt-3' htmlFor="">Company Name</label><br />
+            <p className='mt-3' htmlFor="">Company Name</p><br />
             <input className='w-full mt-1 h-12 border text-start' type="text" />
 
 
             <div className='flex w-full gap-10'>
 
             <div className='w-full'>
-            <label className='mt-3' htmlFor="">Company Email</label><br />
+            <p className='mt-3' htmlFor="">Company Email</p><br />
             <input className='w-full h-12 mt-1 border text-start' type="text" />
             </div>
             <div className='w-full'>
 
-            <label className='mt-3' htmlFor="">Remarks</label><br />
+            <p className='mt-3' htmlFor="">Remarks</p><br />
             <input className='w-full mt-1 h-12 border text-start' type="text" />
             </div>
          
@@ -42,12 +42,12 @@ const CompanySetting = () => {
             <div className='flex w-full gap-10'>
 
 <div className='w-full'>
-<label className='mt-3' htmlFor="">Address</label><br />
+<p className='mt-3' htmlFor="">Address</p><br />
 <input className='w-full h-12 mt-1 border text-start' type="text" />
 </div>
 <div className='w-full'>
 
-<label className='mt-3' htmlFor="">Website</label><br />
+<p className='mt-3' htmlFor="">Website</p><br />
 <input className='w-full mt-1 h-12 border text-start' type="text" />
 </div>
 
@@ -61,7 +61,7 @@ const CompanySetting = () => {
 <div className='flex w-full gap-10'>
 
 <div className='w-full'>
-<label className='mt-3' htmlFor="">Logo</label><br />
+<p className='mt-3' htmlFor="">Logo</p><br />
 <div id='file' className='w-full h-12 mt-1 border text-start'>
 
 <input className='w-full h-12  border text-start' type="file" id='file'  />
@@ -69,7 +69,7 @@ const CompanySetting = () => {
 </div>
 <div className='w-full'>
 
-<label className='mt-3' htmlFor="">Favicon</label><br />
+<p className='mt-3' htmlFor="">Favicon</p><br />
 <input className='w-full mt-1 h-12 border text-start' type="file" />
 
 

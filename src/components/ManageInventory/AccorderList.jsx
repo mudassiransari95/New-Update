@@ -23,12 +23,12 @@ const AccorderList = () => {
           <div className="card">
             <div className="card-content">
               <div style={{display:"flex"}} className="card-body titleHead">
-                <h4 style={{position:"fixed"}} className="card-title">
+                <h4  className="card-title">
                  ACCESSORY ORDER LIST
                   
                 </h4>
 
-                <div style={{marginTop:"100px",marginRight:"100px"}} class="dropdown">
+                <div style={{marginTop:"100px",marginRight:"1000px"}} class="dropdown">
   <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     All result
   </button>

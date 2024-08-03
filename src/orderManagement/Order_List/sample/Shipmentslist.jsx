@@ -3,7 +3,7 @@ import { LuPrinter } from "react-icons/lu";
 import { GrDocumentText } from "react-icons/gr";
 const Shipmentslist = () => {
   return (
-    <div className='w-75 h-screen bg-white pt-3 d-flex flex-col'>
+    <div className='w-full h-screen bg-white pt-3 d-flex flex-col'>
         
       <div className='w-100 h-10 flex flex-row justify-between '> 
 <h1 className='fw-bold'>Shipment List</h1>
@@ -13,9 +13,9 @@ const Shipmentslist = () => {
 
 </div>
       </div>
-      <hr className='bg-slate-700  w-100 mt-3'/>
-      <div className='result-up w-100 bg-red-500 d-flex flex-row justify-between'>
-<div className='w-50 bg-blue-600 flex flex-row gap-4'>
+      <hr className='bg-slate-700  w-full mt-3'/>
+      <div className='result-up w-full mt-3  d-flex flex-row justify-between'>
+<div className='w-50 flex flex-row gap-4'>
 <select className="select h-9 w-56 pl-2 "style={{border:"1px solid  grey", borderRadius:"0.4rem"}}>
     <option selected>    Select Per Page
     </option>
